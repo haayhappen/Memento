@@ -1,0 +1,361 @@
+/* General CSS overwrites */
+
+/* Font-type import */
+
+@font-face {
+  font-family: 'ColfaxRegular';
+  src: url("/res/font/Colfax-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ColfaxLight';
+  src: url("/res/font/Colfax-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ColfaxThin';
+  src: url("/res/font/Colfax-Thin.otf") format("opentype");
+}
+
+html body h1 {
+  font-family: 'ColfaxLight', Fallback, sans-serif;
+  font-size: 4rem;
+}
+
+html body h3 {
+  font-family: 'ColfaxThin', Fallback, sans-serif;
+  font-size: 1.6rem;
+}
+
+html a {
+  color: white;
+  font-family: 'ColfaxLight', Fallback, sans-serif;
+  font-size: 1.7rem;
+}
+
+html a:hover {
+  color: white;
+}
+
+html p {
+  color: white;
+  font-family: 'ColfaxThin', Fallback, sans-serif;
+  font-size: 0.8rem;
+  text-indent: 0%;
+  text-align: center;
+}
+
+/*CSS for larger screens*/
+
+ol.carousel-indicators {
+  position: fixed;
+  bottom: 0px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li {
+  float: left;
+  width: 12.5%;
+  height: 100px;
+  margin: 0;
+}
+
+ol.carousel-indicators li.active {
+  background-color: rgba(0, 0, 0, 0.452) !important;
+}
+
+ol.carousel-indicators li::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 0px;
+  content: "";
+}
+
+
+
+.carousel {
+  position: relative;
+  /* width: auto; */
+  height: calc(100vh - 100px);
+  /* margin-bottom:100px; */
+}
+
+.carousel-item {
+  height: calc(100vh - 100px);
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption1 {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  width: 50%;
+  color: #fff;
+}
+
+.carousel-caption1 .caption-logo {
+  display: block;
+  max-width: 60px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  margin-bottom: 12%;
+}
+
+.carousel-caption1 .caption-heading {
+  padding-bottom: 2%;
+}
+
+.carousel-caption1 .caption-description {
+  padding-bottom: 8%;
+}
+
+.fixed-row-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+#wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: Gray;
+}
+
+#wrapper div {
+  display: table-cell;
+  height: 100px;
+  text-align: center;
+}
+
+.orange-border {
+  border-style: solid;
+  border-color: rgb(255, 166, 0);
+}
+
+.grey-background {
+  background-color: #4d4d4d !important;
+}
+
+.dark-grey-background {
+  background-color: #404040 !important;
+}
+
+.indicator-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.magenta-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #C927FF;
+  border-bottom-width: 4px;
+}
+
+.pink-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #FF0062;
+  border-bottom-width: 4px;
+}
+
+.turqoise-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #00FF96;
+  border-bottom-width: 4px;
+}
+
+.black-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #202020;
+  border-bottom-width: 4px;
+}
+
+.orange-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #FF8D00;
+  border-bottom-width: 4px;
+}
+
+.blue-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #00B5E8;
+  border-bottom-width: 4px;
+}
+
+.yellow-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #CDE800;
+  border-bottom-width: 4px;
+}
+
+.red-bottom-border {
+  border-bottom-style: solid;
+  border-bottom-color: #FB555F;
+  border-bottom-width: 4px;
+}
+
+.indicator-logo {
+  display: block;
+  max-width: 52px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.indicator-description {
+  height: 40%;
+  max-height: 40%;
+  margin: auto;
+  margin-bottom: 0px;
+  padding-top: 5%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+#MenuButton {
+  z-index: 999999;
+  right: 30px;
+}
+
+.background-zero {
+  background-image: url(/res/images/Zero-min.jpg);
+}
+
+.background-flux {
+  background-image: url(/res/images/flux-min.jpg);
+}
+
+.background-infinity {
+  background-image: url(/res/images/infinity-min.jpg);
+}
+
+.background-factory {
+  background-image: url(/res/images/factory-min.jpg);
+}
+
+.background-numa {
+  background-image: url(/res/images/Numa-min.jpg);
+}
+
+.background-madeofstars {
+  background-image: url(/res/images/made-of-stars-min.jpg);
+}
+
+.background-trinity {
+  background-image: url(/res/images/Trinity-min.jpg);
+}
+
+.background-frankwilder {
+  background-image: url(/res/images/Wilder_Studios-min.jpg);
+}
+
+.background-memento {
+  background-image: url(/res/images/memento-min.jpg);
+}
+
+/* .bigger {
+  background-color: rgba(0, 0, 0, 0.452) !important;
+} */
+/* CSS for smaller devices */
+
+@media (max-width: 767.98px) {
+  .carousel {
+    height: 100vh;
+  }
+  .carousel-item {
+    height: 100vh;
+  }
+  .carousel-caption1 {
+    top: 20%;
+    width: 80%;
+  }
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+  }
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 2px;
+    border: 0px solid #fff;
+    border-radius: 5px;
+  }
+  /* .bigger {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 2px !important;
+    background-color:white;
+  } */
+  ol.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: #fff;
+  }
+  ol.carousel-indicators li.after {
+    bottom: 0px;
+  }
+  .indicator-logo {
+    display: none;
+  }
+  .indicator-description {
+    display: none;
+  }
+  .grey-background {
+    background-color: white !important;
+    border-width: 0px;
+  }
+  .dark-grey-background {
+    background-color: white !important;
+    border-width: 0px;
+  }
+}
+@media (max-width:20em) { 
+  html body h1 {
+    font-size: 2rem;
+  }
+  
+  html body h3 {
+    font-size: 1.2rem;
+  }
+  
+  html a {
+    color: white;
+    font-size: 1rem;
+  }
+
+  html p {
+    color: white;
+    font-family: 'ColfaxThin', Fallback, sans-serif;
+    font-size: 0.6rem;
+    text-indent: 0%;
+    text-align: center;
+  }
+}
+
