@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+.bg-memento {
+    /* The image used */
+    background-image: url(/res/images/memento-min.jpg);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    top: 20%;
+    left:5%;
+    width: 50%;
+}
+
+.logo {
+    display: block;
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    margin-bottom: 12%;
+}
+
+.description-heading {
+padding-bottom: 5%;
+}
+
+.description {
+padding-bottom: 5%;
+}
+
+.link-icon{
+    padding-left: 1%;
+}

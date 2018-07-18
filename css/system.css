@@ -1,0 +1,71 @@
+/* General CSS overwrites */
+
+/* Font-type import */
+
+@font-face {
+    font-family: 'ColfaxRegular';
+    src: url("/res/font/Colfax-Regular.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: 'ColfaxLight';
+    src: url("/res/font/Colfax-Light.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: 'ColfaxThin';
+    src: url("/res/font/Colfax-Thin.otf") format("opentype");
+  }
+  
+  html body h1 {
+      color: white;
+    font-family: 'ColfaxLight', Fallback, sans-serif;
+    font-size: 4rem;
+  }
+  
+  html body h3 {
+      color: white;
+    font-family: 'ColfaxThin', Fallback, sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  html a {
+    color: white;
+    font-family: 'ColfaxLight', Fallback, sans-serif;
+    font-size: 1.7rem;
+  }
+  
+  html a:hover {
+    color: white;
+  }
+  
+  html p {
+    color: white;
+    font-family: 'ColfaxThin', Fallback, sans-serif;
+    font-size: 0.8rem;
+    text-indent: 0%;
+    text-align: center;
+  }
+  
+  @media (max-width:20em) { 
+    html body h1 {
+      font-size: 2rem;
+    }
+    
+    html body h3 {
+      font-size: 1.2rem;
+    }
+    
+    html a {
+      color: white;
+      font-size: 1rem;
+    }
+  
+    html p {
+      color: white;
+      font-family: 'ColfaxThin', Fallback, sans-serif;
+      font-size: 0.6rem;
+      text-indent: 0%;
+      text-align: center;
+    }
+}
