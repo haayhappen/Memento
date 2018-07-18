@@ -1,23 +1,6 @@
-// $(document).ready(function () {
-
-//     //workaournd for mobile iondicators
-//     $(document).on('click', '*', function (event) {
-//         $target = $(event.target);
-//         if ($(event.target).attr('class')) {
-//             //remove all bigger classes
-//             $(".indicator-container").removeClass("bigger");
-//             //check if logo or desc. is clicked and add class:bigger to its corresponding indicator container
-//             if ($(event.target).attr('class').includes('indicator-logo') || $(event.target).attr('class').includes('indicator-description')) {
-//                 console.log("clicked logo or description");
-//                 var parents = $target.parent("li.indicator-container").addClass('bigger');
-//                 console.log(parents);
-//             } else if ($(event.target).attr('class').includes('indicator-container')) {
-//                 //if container is clicked, add class directly
-//                 $target.addClass('bigger');
-//             }
-//         }
-//     });
-// });
+$(document).ready(function () {
+    $('.content').fadeIn('slow');
+});
 
 function closeHamburgerMenu() {
     document.getElementsByTagName('input')[0].click();
@@ -62,7 +45,7 @@ $(".carousel").on("touchstart", function (event) {
     $(this).one("touchmove", function (event) {
         var xMove = event.originalEvent.touches[0].pageX;
         if (Math.floor(xClick - xMove) > 5) {
-           $(this).carousel('next');
+            $(this).carousel('next');
         } else if (Math.floor(xClick - xMove) < -5) {
             $(this).carousel('prev');
         }

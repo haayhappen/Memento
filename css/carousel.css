@@ -48,7 +48,19 @@ ol.carousel-indicators li::after {
   background-size: cover;
 }
 
+.carousel-item-next .carousel-caption1{
+  opacity: 0;
+}
+
+.carousel-item-prev .carousel-caption1{
+  opacity: 0;
+}
+
 .carousel-caption1 {
+  /* display: none; */
+transition: opacity .4s ease-in-out;
+-moz-transition: opacity .4s ease-in-out;
+-webkit-transition: opacity .4s ease-in-out;
   position: absolute;
   left: 5%;
   top: 20%;
@@ -57,6 +69,7 @@ ol.carousel-indicators li::after {
 }
 
 .carousel-caption1 .caption-logo {
+  /* display: block; */
   display: block;
   max-width: 60px;
   max-height: 60px;
