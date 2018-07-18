@@ -12,7 +12,7 @@ ol.carousel-indicators {
 
 ol.carousel-indicators li {
   float: left;
-  width: 12.5%;
+  width: 16.67%;
   height: 100px;
   margin: 0;
 }
@@ -30,8 +30,6 @@ ol.carousel-indicators li::after {
   height: 0px;
   content: "";
 }
-
-
 
 .carousel {
   position: relative;
@@ -189,39 +187,39 @@ ol.carousel-indicators li::after {
 }
 
 .background-zero {
-  background-image: url(/res/images/Zero-min.jpg);
+  background-image: url(/res/images/Zero.jpg);
 }
 
 .background-flux {
-  background-image: url(/res/images/flux-min.jpg);
+  background-image: url(/res/images/Flux.jpg);
 }
 
 .background-infinity {
-  background-image: url(/res/images/infinity-min.jpg);
+  background-image: url(/res/images/infinity.jpg);
 }
 
 .background-factory {
-  background-image: url(/res/images/factory-min.jpg);
+  background-image: url(/res/images/factory.jpg);
 }
 
 .background-numa {
-  background-image: url(/res/images/Numa-min.jpg);
+  background-image: url(/res/images/Made-of-stars.jpg);
 }
 
-.background-madeofstars {
+/* .background-madeofstars {
   background-image: url(/res/images/made-of-stars-min.jpg);
 }
 
 .background-trinity {
   background-image: url(/res/images/Trinity-min.jpg);
-}
+} */
 
 .background-frankwilder {
-  background-image: url(/res/images/Wilder_Studios-min.jpg);
+  background-image: url(/res/images/wilder-studios.jpg);
 }
 
 .background-memento {
-  background-image: url(/res/images/memento-min.jpg);
+  background-image: url(/res/images/Memento.jpg);
 }
 
 /* CSS for smaller devices */

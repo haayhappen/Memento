@@ -47,6 +47,10 @@
     text-align: center;
   }
   
+.link-icon{
+    padding-left: 1%;
+}
+  
   @media (max-width:20em) { 
     html body h1 {
       font-size: 2rem;

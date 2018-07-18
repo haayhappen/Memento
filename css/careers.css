@@ -5,8 +5,8 @@ body {
 
 .bg-memento {
     /* The image used */
-    background-image: url(/res/images/memento-min.jpg);
-    /* Full height */
+    background-image: url(/res/images/Memento.jpg);
+        /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -36,8 +36,4 @@ padding-bottom: 5%;
 
 .description {
 padding-bottom: 5%;
-}
-
-.link-icon{
-    padding-left: 1%;
 }
