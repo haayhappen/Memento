@@ -3,73 +3,98 @@
 /* Font-type import */
 
 @font-face {
-    font-family: 'ColfaxRegular';
-    src: url("/res/font/Colfax-Regular.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: 'ColfaxLight';
-    src: url("/res/font/Colfax-Light.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: 'ColfaxThin';
-    src: url("/res/font/Colfax-Thin.otf") format("opentype");
-  }
-  
+  font-family: 'ColfaxRegular';
+  src: url("/res/font/Colfax-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ColfaxLight';
+  src: url("/res/font/Colfax-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ColfaxThin';
+  src: url("/res/font/Colfax-Thin.otf") format("opentype");
+}
+
+html body h1 {
+  color: white;
+  font-family: 'ColfaxLight', Fallback, sans-serif;
+  font-size: 3.5rem;
+}
+
+html body h3 {
+  color: white;
+  font-family: 'ColfaxThin', Fallback, sans-serif;
+  font-size: 1.6rem;
+}
+
+html a {
+  color: white;
+  font-family: 'ColfaxLight', Fallback, sans-serif;
+  font-size: 1.5rem;
+}
+
+html a:hover {
+  color: white;
+}
+
+html p {
+  color: white;
+  font-family: 'ColfaxThin', Fallback, sans-serif;
+  font-size: 0.8rem;
+  text-indent: 0%;
+  text-align: center;
+}
+
+.link-icon {
+  padding-left: 1%;
+}
+
+/* laptops */
+@media (max-width: 1439.98px) {
   html body h1 {
-      color: white;
-    font-family: 'ColfaxLight', Fallback, sans-serif;
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
-  
   html body h3 {
-      color: white;
-    font-family: 'ColfaxThin', Fallback, sans-serif;
     font-size: 1.6rem;
   }
-  
   html a {
-    color: white;
-    font-family: 'ColfaxLight', Fallback, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
-  
-  html a:hover {
-    color: white;
-  }
-  
   html p {
-    color: white;
-    font-family: 'ColfaxThin', Fallback, sans-serif;
-    font-size: 0.8rem;
-    text-indent: 0%;
-    text-align: center;
+    font-size: 0.6rem;
   }
-  
-.link-icon{
-    padding-left: 1%;
 }
-  
-  @media (max-width:20em) { 
-    html body h1 {
-      font-size: 2rem;
-    }
-    
-    html body h3 {
-      font-size: 1.2rem;
-    }
-    
-    html a {
-      color: white;
-      font-size: 1rem;
-    }
-  
-    html p {
-      color: white;
-      font-family: 'ColfaxThin', Fallback, sans-serif;
-      font-size: 0.6rem;
-      text-indent: 0%;
-      text-align: center;
-    }
+
+/* tablets*/
+@media (max-width: 1023.98px) {
+  html body h1 {
+    font-size: 3rem;
+  }
+  html body h3 {
+    font-size: 1.5rem;
+  }
+  html a {
+    font-size: 1.2rem;
+  }
+  html p {
+    font-size: 0.6rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 767.98px) {
+  html body h1 {
+    font-size: 2.5rem;
+  }
+  html body h3 {
+    font-size: 1.3rem;
+  }
+  html a {
+    font-size: 1rem;
+  }
+  html p {
+    font-size: 0.5rem;
+  }
 }
