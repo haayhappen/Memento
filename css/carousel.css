@@ -17,6 +17,14 @@
   background-size: cover;
 }
 
+.carousel-item-next .carousel-caption1 {
+  opacity: 0;
+}
+
+.carousel-item-prev .carousel-caption1 {
+  opacity: 0;
+}
+
 .carousel-item-next .carousel-caption1 .caption-logo {
   opacity: 0;
 }

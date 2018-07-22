@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.content').fadeIn('slow');
+    window.scrollTo(0,1);
 });
 
 function closeHamburgerMenu() {
