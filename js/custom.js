@@ -39,7 +39,13 @@ function includeHTML() {
         }
     }
 }
-
+//hide adress bar
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
 //Touch swipe
 $(".carousel").on("touchstart", function (event) {
     var xClick = event.originalEvent.touches[0].pageX;
