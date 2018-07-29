@@ -1,18 +1,5 @@
 /* General CSS overwrites */
 
-html{
-  overflow: hidden;
-  width:100%;
-}
-body{
-  height:100%;
-  position:fixed; /* prevent overscroll bounce*/
-  overflow-y:hidden;
-  -webkit-overflow-scrolling: touch; /* iOS velocity scrolling */
-  width:100%;                    
-  margin-left:25%;
-} 
-
 /* Font-type import */
 
 @font-face {
