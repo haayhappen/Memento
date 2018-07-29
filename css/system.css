@@ -1,6 +1,9 @@
 /* General CSS overwrites */
 
 /* Font-type import */
+body {
+  overflow: hidden;
+}
 
 @font-face {
   font-family: 'ColfaxRegular';
