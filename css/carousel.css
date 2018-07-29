@@ -1,7 +1,7 @@
 /*CSS for larger screens*/
 
 .carousel {
-  position: fixed;
+  position: relative;
   /* width: auto; */
   height: calc(100vh - 100px);
   /* margin-bottom:100px; */
@@ -58,7 +58,7 @@
 }
 
 .carousel-caption1 {
-  position: absolute;
+  position: fixed;
   left: 5%;
   top: 20%;
   width: 50%;
@@ -146,7 +146,7 @@ ol.carousel-indicators li.active {
 }
 
 ol.carousel-indicators li::after {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0;
   display: inline-block;
@@ -323,7 +323,7 @@ ol.carousel-indicators li::after {
     width: 80%;
   }
   ol.carousel-indicators {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 50%;
     z-index: 15;
