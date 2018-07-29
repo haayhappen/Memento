@@ -40,9 +40,7 @@ function includeHTML() {
     }
 }
 //fix adress bar
-$(function() {
-    $(window).scrollTo(0,1);
-});
+
 //Touch swipe
 $(".carousel").on("touchstart", function (event) {
     var xClick = event.originalEvent.touches[0].pageX;
