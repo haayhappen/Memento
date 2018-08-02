@@ -15,22 +15,39 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+    position: relative;
+    width: 100%;
+
 }
 
- .background-overlay{
-  height: 100vh;
-  min-height: 300px;
+.carousel-item-prev .color-overlay{
+  height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.carousel-item-next .color-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.carousel-item .color-overlay{
+  height: 100%;
   width: 100%;
-  background-color:   #C927FF;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.carousel-item-next .background-zero  {
+
+/* .carousel-item-next .background-zero  {
   opacity: 0;
-}
+} */
 
 .carousel-item-next .carousel-caption1 {
   opacity: 0;
@@ -236,10 +253,18 @@ ol.carousel-indicators li::after {
   border-bottom-width: 4px;
 }
 
+.color-zero{
+  background: #C927FF;
+}
+
 .pink-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #FF0062;
   border-bottom-width: 4px;
+}
+
+.color-flux{
+  background: #FF0062;
 }
 
 .turqoise-bottom-border {
@@ -248,10 +273,18 @@ ol.carousel-indicators li::after {
   border-bottom-width: 4px;
 }
 
+.color-infinity{
+  background: #00FF96;
+}
+
 .black-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #202020;
   border-bottom-width: 4px;
+}
+
+.color-factory{
+  background: #202020;
 }
 
 .orange-bottom-border {
@@ -260,22 +293,38 @@ ol.carousel-indicators li::after {
   border-bottom-width: 4px;
 }
 
-.blue-bottom-border {
+.color-numa{
+  background: #FF8D00;
+}
+
+.color-memento{
+  background: black;
+}
+
+/* .blue-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #00B5E8;
   border-bottom-width: 4px;
 }
 
-.yellow-bottom-border {
+.color-{
+  background: #00B5E8;
+} */
+
+/* .yellow-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #CDE800;
   border-bottom-width: 4px;
-}
+} */
 
 .red-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #FB555F;
   border-bottom-width: 4px;
+}
+
+.color-wilder{
+  background: #FB555F;
 }
 
 .centered {

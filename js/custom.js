@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 $(document).ready(function () {
     $('.content').fadeIn('slow');
     // window.scrollTo(0,1);
@@ -55,3 +57,12 @@ $(".carousel").on("touchstart", function (event) {
         $(this).off("touchmove");
     });
 });
+
+$('#myCarousel').on('slid.bs.carousel', function () {
+    //get active lement & fade out color overlay
+    $('.carousel-item > .color-overlay').fadeIn(0);
+    $('.carousel-item.active > .color-overlay').fadeOut(1000);
+    
+    let activeDiv = $('.carousel-item.active');
+    console.log("active el: ", activeDiv);
+  });
