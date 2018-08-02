@@ -99,10 +99,10 @@
 
 .carousel-caption1 .caption-logo {
   display: block;
-  max-width: 60px;
-  max-height: 60px;
+  max-width: 60px; 
+   max-height: 60px;
   width: auto;
-  height: auto;
+
   margin-bottom: 12%;
 
   -webkit-transition-property: opacity;
@@ -114,6 +114,14 @@
   transition-delay: 0s;
   transition-timing-function: ease-in-out;
 }
+
+.caption-logo.infinity {
+ padding-bottom: 40px
+}
+
+.caption-logo.factory {
+  padding-bottom: 30px
+ }
 
 .carousel-caption1 .caption-heading {
   padding-bottom: 2%;
