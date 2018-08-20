@@ -17,6 +17,10 @@
   src: url("/res/font/Colfax-Thin.otf") format("opentype");
 }
 
+html body{
+  background-color: black;
+}
+
 html body h1 {
   color: white;
   font-family: 'ColfaxLight', Fallback, sans-serif;
