@@ -176,10 +176,10 @@ ol.carousel-indicators li {
   /* transition: all 1s; */
 }
 
-ol.carousel-indicators li:hover>.indicator-description {
+/* ol.carousel-indicators li:hover>.indicator-description {
   font-size: 1.2rem;
   padding-top: 3%
-}
+} */
 
 ol.carousel-indicators li.active {
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -211,6 +211,7 @@ ol.carousel-indicators li::after {
 }
 
 .indicator-description {
+  font-size: 0.85em;
   height: 40%;
   max-height: 40%;
   margin: auto;
@@ -302,22 +303,18 @@ ol.carousel-indicators li::after {
 }
 
 .color-numa{
-  background: #FF8D00;
+  background: #00B5E8;
 }
 
 .color-memento{
   background: black;
 }
 
-/* .blue-bottom-border {
+ .blue-bottom-border {
   border-bottom-style: solid;
   border-bottom-color: #00B5E8;
   border-bottom-width: 4px;
 }
-
-.color-{
-  background: #00B5E8;
-} */
 
 /* .yellow-bottom-border {
   border-bottom-style: solid;
