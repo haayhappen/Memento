@@ -182,7 +182,7 @@ ol.carousel-indicators li {
 } */
 
 ol.carousel-indicators li.active {
-  background-color: rgba(255, 255,255, 0.4) !important;
+  background-color: rgba(255, 255,255, 0.2) !important;
 }
 
 ol.carousel-indicators li::after {
@@ -249,11 +249,11 @@ ol.carousel-indicators li::after {
 } */
 
 .grey-background {
-  background-color: #4d4d4d !important;
+  background-color: #2e2e2e !important;
 }
 
 .dark-grey-background {
-  background-color: #404040 !important;
+  background-color: #292929 !important;
 }
 
 .magenta-bottom-border {
