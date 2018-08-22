@@ -97,6 +97,14 @@
   color: #fff;
 }
 
+.caption-logo.infinity {
+  padding-bottom: 40px
+ }
+ 
+ .caption-logo.factory {
+   padding-bottom: 30px
+  }
+
 .carousel-caption1 .caption-logo {
   display: block;
   max-width: 60px; 
@@ -115,24 +123,16 @@
   transition-timing-function: ease-in-out;
 }
 
-.caption-logo.infinity {
- padding-bottom: 40px
-}
-
-.caption-logo.factory {
-  padding-bottom: 30px
- }
-
 .carousel-caption1 .caption-heading {
   padding-bottom: 2%;
 
   -webkit-transition-property: opacity;
   -webkit-transition-duration: 0.5s;
-  -webkit-transition-delay: 0.3s;
+  -webkit-transition-delay: 0s;
   -webkit-transition-timing-function: ease-in-out;
   transition-property:opacity;
   transition-duration: 0.5s;
-  transition-delay: 0.3s;
+  transition-delay: 0s;
   transition-timing-function: ease-in-out;
 }
 
@@ -140,22 +140,22 @@
   padding-bottom: 8%;
   -webkit-transition-property: opacity;
   -webkit-transition-duration: 0.5s;
-  -webkit-transition-delay: 0.6s;
+  -webkit-transition-delay: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
   transition-property:opacity;
   transition-duration: 0.5s;
-  transition-delay: 0.6s;
+  transition-delay: 0.5s;
   transition-timing-function: ease-in-out;
 }
 
 .carousel-caption1 .caption-link{
   -webkit-transition-property: opacity;
   -webkit-transition-duration: 0.5s;
-  -webkit-transition-delay: 0.9s;
+  -webkit-transition-delay: 0.8s;
   -webkit-transition-timing-function: ease-in-out;
   transition-property:opacity;
   transition-duration: 0.5s;
-  transition-delay: 0.9s;
+  transition-delay: 0.8s;
   transition-timing-function: ease-in-out;
 }
 
@@ -182,7 +182,7 @@ ol.carousel-indicators li {
 } */
 
 ol.carousel-indicators li.active {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(255, 255,255, 0.4) !important;
 }
 
 ol.carousel-indicators li::after {

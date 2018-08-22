@@ -61,7 +61,7 @@ $(".carousel").on("touchstart", function (event) {
 $('#myCarousel').on('slid.bs.carousel', function () {
     //get active lement & fade out color overlay
     $('.carousel-item > .color-overlay').fadeIn(0);
-    $('.carousel-item.active > .color-overlay').fadeOut(1000);
+    $('.carousel-item.active > .color-overlay').delay(1000).fadeOut(1000);
     
     let activeDiv = $('.carousel-item.active');
     console.log("active el: ", activeDiv);
