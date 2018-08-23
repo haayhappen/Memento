@@ -384,9 +384,9 @@ ol.carousel-indicators li::after {
 /* CSS for smaller devices */
 
 @media (max-width: 767.98px) {
-  .carousel {
-    /* height: 100vh; */
-  }
+  /* .carousel {
+    height: 100vh;
+  } */
   .carousel-item {
     height: 100vh;
   }
