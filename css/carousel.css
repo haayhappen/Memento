@@ -395,8 +395,8 @@ ol.carousel-indicators li::after {
     width: 80%;
   }
   ol.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
+    /* position: absolute; */
+    bottom: 14px;
     left: 50%;
     z-index: 15;
     width: 60%;
