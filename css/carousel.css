@@ -388,7 +388,7 @@ ol.carousel-indicators li::after {
     height: 100vh;
   } */
   .carousel-item {
-    height: 100vh;
+    min-height: calc(100vh - 56px);
   }
   .carousel-caption1 {
     top: 20%;
