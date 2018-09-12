@@ -5,6 +5,10 @@ $(document).ready(function () {
     // window.scrollTo(0,1);
 });
 
+document.ontouchmove = function(event){
+    event.preventDefault();
+}
+
 function closeHamburgerMenu() {
     document.getElementsByTagName('input')[0].click();
     $(".indicator-container").removeClass("bigger");
